@@ -9,8 +9,13 @@ body {
     font-weight: 500;
 }
 
+p, h1 {
+    margin: 0;
+}
+
 .page-wrapper {
-    max-width: 375px;    
+    max-width: 375px;  
+    min-height: 1000px;  
     margin: auto;
     border: 0px solid #f7f7f7;
     border-radius: 15px;
@@ -25,16 +30,10 @@ body {
     height: 256px;
     padding: 43px 50px 139px;
     background: 
-		linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.6)), 
-		url('../img/header-bg1.png');    
- 
-
-   
-
-
-
-    color: #fff;  
-    
+		linear-gradient(rgba(255, 255, 255, 0.1), 
+                        rgba(0, 0, 0, 0.6)), 
+		url('../img/header-bg.png');    
+    color: #fff;      
 }
 
 .hello {
@@ -45,4 +44,39 @@ body {
 .hello-text {
     font-size: 16px;   
     line-height: 20px; 
+    margin-top: 12px;
+}
+
+.container {
+    margin: auto;
+    max-width: 335px;    
+}
+
+.user {
+    border-radius: 10px;
+    height: 125px;
+    box-shadow: 0 0 20px 0 rgba(109, 109, 109, 0.13);
+    background: #fff;
+    text-align: center;    
+    margin-top: -70px ;
+}
+
+.user-avatar {
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;    
+    margin-top: -55px;
+}
+
+.user-name {
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.user-descr {
+    font-weight: 500;
+    font-size: 14px;
+    color: #666464;
+    margin-top: 3px;
 }
