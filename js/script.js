@@ -29,5 +29,5 @@ const autoSlide = () => {
 addDots()
 setInterval(()=>{
     autoSlide()      
-}, 2500)
+}, 5000)
 
