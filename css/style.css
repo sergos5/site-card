@@ -126,9 +126,6 @@ p, h1, h2, h3, ul {
     font-weight: 500;    
 }
 
-
-
-
 .works {
     text-align: center;
     margin-top: 24px;    
@@ -142,12 +139,13 @@ p, h1, h2, h3, ul {
 
 .work-img {   
    display: none; 
-   width: 269px;
+   width: 305px;
    height: 351px; 
    border-radius: 10px;  
    overflow: hidden;   
    margin: auto;
-   margin-bottom: 13px;
+   margin-bottom: 20px;
+   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 .work-img-active {
